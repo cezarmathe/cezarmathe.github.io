@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Cezar Mathe</title><link>https://cezarmathe.com/posts/</link><description>Recent content in Posts on Cezar Mathe</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC-SA 4.0&lt;a&gt;</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cezarmathe.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating an utility to help me maintain my online presence: part 1</title><link>https://cezarmathe.com/posts/2019-04-07-creating-an-utility-to-help-me-maintain-my-online-presence-part-1/</link><pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate><guid>https://cezarmathe.com/posts/2019-04-07-creating-an-utility-to-help-me-maintain-my-online-presence-part-1/</guid><description>I really enjoy programming, so I write code quite often. Which means that my Portfolio section gets outdated quite quick.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Cezar Mathe</title><link>https://cezarmathe.com/posts/</link><description>Recent content in Posts on Cezar Mathe</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC-SA 4.0&lt;/a&gt;</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cezarmathe.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating an utility to help me maintain my online presence: part 1</title><link>https://cezarmathe.com/posts/2019-04-07-creating-an-utility-to-help-me-maintain-my-online-presence-part-1/</link><pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate><guid>https://cezarmathe.com/posts/2019-04-07-creating-an-utility-to-help-me-maintain-my-online-presence-part-1/</guid><description>I really enjoy programming, so I write code quite often. Which means that my Portfolio section gets outdated quite quick.
 That&amp;rsquo;s why I thought about creating a utility that automates the process of recording and processing my work, hence I came up with the name PWRP, which stands for Personal Work Recorder Processor. You can find this project here.
 I decided to write this utility in Go because I love this programming language and it would be a very good opportunity for me to learn more about it.</description><content type="html"><![CDATA[
 
@@ -97,11 +97,8 @@ Before we start Go through your home directory, ~/.config and other folders that
 <h2 id="for-your-convenience">For your convenience</h2>
 
 <p>You might want to add these aliases in your <code>.bashrc</code>:</p>
-
-<pre><code class="language-shell">alias dotfiles='git --work-tree=/home/&lt;your_user&gt;/Maintenance/dotfiles/ --git-dir=/home/&lt;your_user&gt;/Maintenance/dotfiles/.git'
-alias stow='stow -t ${HOME}'
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">alias</span> <span class="nv">dotfiles</span><span class="o">=</span><span class="s1">&#39;git --work-tree=/home/&lt;your_user&gt;/Maintenance/dotfiles/ --git-dir=/home/&lt;your_user&gt;/Maintenance/dotfiles/.git&#39;</span>
+<span class="nb">alias</span> <span class="nv">stow</span><span class="o">=</span><span class="s1">&#39;stow -t ${HOME}&#39;</span></code></pre></div>
 <p>Replace <code>Maintenance/dotfiles</code> with the path that you chose for your setup, but keep the <code>\</code> at the end of the path for the work tree.</p>
 
 <h2 id="my-dotfiles">My dotfiles</h2>
