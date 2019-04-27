@@ -60,7 +60,13 @@ There is a video which showcases an example usage:</description><content type="h
 
 <p>There is a video which showcases an example usage:</p>
 
-<p><a href="https://www.youtube.com/watch?v=VhT3Jq5AsiM" target="_blank"><img src="https://img.youtube.com/vi/VhT3Jq5AsiM/0.jpg" alt="Arduino binary counter example" /></a></p>
+<!-- [![Arduino binary counter example](https://img.youtube.com/vi/VhT3Jq5AsiM/0.jpg)](https://www.youtube.com/watch?v=VhT3Jq5AsiM) -->
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/VhT3Jq5AsiM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 ]]></content></item><item><title>How to manage your dotfiles like a boss</title><link>https://cezarmathe.com/posts/2019-01-09-how-to-manage-your-dotfiles-like-a-boss/</link><pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate><guid>https://cezarmathe.com/posts/2019-01-09-how-to-manage-your-dotfiles-like-a-boss/</guid><description>First, a little bit of background. You set up a new computer and chances are you haven&amp;rsquo;t backed up your dotfiles. What do you do now? You spend hours trying to replicate the workflow and configurations, because someone didn&amp;rsquo;t take the time to back up his dotfiles. But hey, at least you&amp;rsquo;re trying now.
 Before we start Go through your home directory, ~/.config and other folders that might contain configurations.</description><content type="html"><![CDATA[
 
