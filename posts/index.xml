@@ -8,7 +8,7 @@ I decided to write this utility in Go because I love this programming language a
 
 <p>I decided to write this utility in <strong>Go</strong> because I love this programming language and it would be a very good opportunity for me to learn more about it.</p>
 
-<h1 id="my-plan-for-this-utility">My plan for this utility</h1>
+<h2 id="my-plan-for-this-utility">My plan for this utility</h2>
 
 <p>The utility should:</p>
 
@@ -21,32 +21,32 @@ I decided to write this utility in Go because I love this programming language a
 
 <p>I&rsquo;ve been working on the project for almost a month now, but I didn&rsquo;t rush into the features until I had a solid code structure that I can then easily use to expand the project. This includes working with configuration easily, easy logging management between different packages and a proper CLI structure.</p>
 
-<h1 id="the-configuration">The configuration</h1>
+<h2 id="the-configuration">The configuration</h2>
 
 <p>I chose the <a href="https://github.com/toml-lang/toml" target="_blank">toml</a> as I find it really straightforward to use from a user&rsquo;s perspective(and I also like it more than other data file formats)</p>
 
-<h1 id="what-i-have-acomplished-so-far">What I have acomplished so far</h1>
+<h2 id="what-i-have-acomplished-so-far">What I have acomplished so far</h2>
 
-<h2 id="configuration">Configuration</h2>
+<h3 id="configuration">Configuration</h3>
 
 <p>I use <a href="https://github.com/spf13/viper" target="_blank">Viper</a> for handling the configuration file finding, opening and reading process; it also provides useful features like binding command line flags and environment variables to certain keys. If you&rsquo;d like to see an example configuration file, you can find one <a href="https://github.com/cezarmathe/pwrp/blob/master/pwrp.toml" target="_blank">here</a>.</p>
 
-<h2 id="logging">Logging</h2>
+<h3 id="logging">Logging</h3>
 
 <p>I wanted to have a separate way of logging debug messages(with full caller name, more details etc.) from other logging messages(verbose, info, warn etc.) that does not force you to possess two logger(<a href="https://github.com/sirupsen/logrus" target="_blank">logrus</a>) objects and that can easily transfer logging details(like level and enabling debug messages) to other packages.
 Because of this, I created a <em>smartlogger</em> package that does just that. It wraps around <strong>logrus</strong> logger struct methods and it provides a couple of other useful methods, like reporting that a method has been called or it has returned(using the <a href="https://godoc.org/runtime" target="_blank">runtime</a> package).</p>
 
 <p><img src="https://cezarmathe.com/img/2019-04-07-image.png" alt="Logging in action" title="Logging in action" /></p>
 
-<h2 id="cli">CLI</h2>
+<h3 id="cli">CLI</h3>
 
 <p>For the Command Line interface, I used <a href="https://github.com/spf13/cobra" target="_blank">cobra</a> to simplify using subcommands and flags.</p>
 
-<h2 id="configuration-validation">Configuration validation</h2>
+<h3 id="configuration-validation">Configuration validation</h3>
 
 <p>The utility has a built in configuration validation system that checks the configuration each time it runs. You can also export a configuration file and validate it separately, which overwrites the previous file with the new changes(like adding protocols to URL&rsquo;s).</p>
 
-<h2 id="recording-process">Recording process</h2>
+<h3 id="recording-process">Recording process</h3>
 
 <p>At the moment, the recording process loads the repositories listed in the configuration. Loading means:</p>
 
