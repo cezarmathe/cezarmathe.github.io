@@ -36,7 +36,7 @@ I decided to write this utility in Go because I love this programming language a
 <p>I wanted to have a separate way of logging debug messages(with full caller name, more details etc.) from other logging messages(verbose, info, warn etc.) that does not force you to possess two logger(<a href="https://github.com/sirupsen/logrus" target="_blank">logrus</a>) objects and that can easily transfer logging details(like level and enabling debug messages) to other packages.
 Because of this, I created a <em>smartlogger</em> package that does just that. It wraps around <strong>logrus</strong> logger struct methods and it provides a couple of other useful methods, like reporting that a method has been called or it has returned(using the <a href="https://godoc.org/runtime" target="_blank">runtime</a> package).</p>
 
-<p><img src="https://cezarmathe.com/img/2019-04-07-image.png" alt="Logging in action" title="Logging in action" /></p>
+<p><img src="/img/2019-04-07-image.png" alt="Logging in action" title="Logging in action" /></p>
 
 <h3 id="cli">CLI</h3>
 
