@@ -49,19 +49,28 @@
     line-height: 30px;
 }
 
-@media screen and (mad-device-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     #index-sidebar-container {
-        display: none;
+        width: 75%;
+        top: 40%;
+        right: 50%;
+        left: 25%;
     }
-    /* #index-sidebar-contents a {
+    #index-sidebar-contents a {
         text-decoration: none;
-        font-size: 2px;
+        font-size: 10px;
         text-align: left;
         color: #818181;
         display: block;
     }
     #TableOfContents li {
-        margin: 1px;
-        line-height: 10px;
-    } */
+        margin: 5px;
+        line-height: 15px;
+    }
+  } */
+
+  @media screen and (max-width: 1200px) {
+    #index-sidebar-container {
+        display: none;
+    }
   }
