@@ -49,7 +49,7 @@
     line-height: 30px;
 }
 
-@media screen and (mad-width: 1200px) {
+@media screen and (mad-device-width: 1200px) {
     #index-sidebar-container {
         display: none;
     }
