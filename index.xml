@@ -1,8 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Armand-Cezar Mathe</title><link>https://cezarmathe.com/</link><description>Recent content on Armand-Cezar Mathe</description><generator>Hugo -- gohugo.io</generator><copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC-SA 4.0&lt;/a&gt;</copyright><lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cezarmathe.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About me</title><link>https://cezarmathe.com/about/</link><pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate><guid>https://cezarmathe.com/about/</guid><description>Hi, my name is Cezar, I&#39;m 18 and I&#39;m a student at the &amp;ldquo;Andrei Muresanu&amp;rdquo; National College in Dej, Cluj, Romania. I wrote my first line of code when I was 9 and I&#39;ve been enjoying the experience since then.
-Tinkering with my Linux system is one of my favourite things, along with writing Go code, Bash scripts and command line utilities.
-Beyond my absolute favourite things, I participate in the First Tech Challenge program since season I and I can say that I&#39;ve done any technical thing related to the robot: engineering, programming(in Java) and even piloting.</description></item><item><title>How to manage your dotfiles</title><link>https://cezarmathe.com/posts/2019-01-09-how-to-manage-your-dotfiles/</link><pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate><guid>https://cezarmathe.com/posts/2019-01-09-how-to-manage-your-dotfiles/</guid><description>First, a little bit of background. You set up a new computer and chances are you haven&#39;t backed up your dotfiles. What do you do now? You spend hours trying to replicate the workflow and configurations, because someone didn&#39;t take the time to back up his dotfiles. But hey, at least you&#39;re trying now.
-Before we start Go through your home directory, ~/.config and other folders that might contain configurations. Also, make sure that you DO NOT include private information like ssh and gnupg keys!</description></item><item><title>Getting myself a website</title><link>https://cezarmathe.com/posts/2019-01-03-getting-myself-a-website/</link><pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate><guid>https://cezarmathe.com/posts/2019-01-03-getting-myself-a-website/</guid><description>It&#39;s a brand new year and I have big plans so far. And one of them is getting an up-and-running website for myself. Here it is.</description></item><item><title>Contact me</title><link>https://cezarmathe.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cezarmathe.com/contact/</guid><description>Personal details Email: cezarmathe@gmail.com LinkedIn: Cezar Mathe Freelancer profiles Upwork: Cezar Mathe Freelancer: Cezar M. Online profiles GitHub: cezarmathe Medium: @cezarmathe Stackoverflow: Cezar Mathe Other accounts related to me PayPal: Cezar Mathe</description></item><item><title>My work</title><link>https://cezarmathe.com/portfolio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cezarmathe.com/portfolio/</guid><description>Curriculum Vitae If you&#39;d like to see a plain old CV, then you can download mine here(it&#39;s a PDF).
-Open source projects pwrp Personal Work Recorder-Processor
-pinbitwriter An IoT library for writing bits to digital pins like they are a data transfer bus.
-discord-message-embedder A discord bot that sends embedded messages for you by parsing a JSON string.
-trackexpenses-android An application that helps you track your money.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cezar Mathe</title>
+    <link>https://cezarmathe.com/</link>
+    <description>Recent content on Cezar Mathe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://cezarmathe.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>https://cezarmathe.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cezarmathe.com/about/</guid>
+      <description>Hi, my name is Cezar, I&#39;m 18 and I&#39;m a student at the &amp;ldquo;Andrei Muresanu&amp;rdquo; National College in Dej, Cluj, Romania.
+Please reach out to me by email.</description>
+    </item>
+    
+  </channel>
+</rss>
