@@ -16,8 +16,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cezarmathe.com/about/</guid>
-      <description>Hi, my name is Cezar, I&#39;m 18 and I&#39;m a student at the &amp;ldquo;Andrei Muresanu&amp;rdquo; National College in Dej, Cluj, Romania.
-Please reach out to me by email.</description>
+      <description>Hi, my name is Cezar.
+I really like building open-source software, being responsible, planning ahead, managing people and helping others achieve their best.
+I&#39;m also interested in business, money, investing and engineering in general.
+If you really want to get in touch with me, please use email.</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://cezarmathe.com/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cezarmathe.com/software/</guid>
+      <description>WORK IN PROGRESS</description>
     </item>
     
   </channel>
