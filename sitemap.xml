@@ -3,19 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cezarmathe.com/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cezarmathe.com/categories/</loc>
-  </url>
-  
-  <url>
     <loc>https://cezarmathe.com/</loc>
   </url>
   
   <url>
-    <loc>https://cezarmathe.com/software/</loc>
+    <loc>https://cezarmathe.com/categories/</loc>
   </url>
   
   <url>
